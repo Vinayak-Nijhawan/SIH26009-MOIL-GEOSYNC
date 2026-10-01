@@ -217,7 +217,7 @@ st.markdown(f"""
     <div class="fd-header-right">
         <div class="fd-tag">⛏️ {mine_display}</div>
         {monsoon_tag}
-        <span class="fd-live"><span class="fd-live-dot"></span> OPERATIONAL</span>
+        <div class="fd-tag">🟢 OPERATIONAL</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
