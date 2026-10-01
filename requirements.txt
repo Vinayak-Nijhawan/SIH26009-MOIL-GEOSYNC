@@ -1,0 +1,14 @@
+streamlit>=1.36
+pandas
+numpy
+scikit-learn
+joblib
+plotly
+pydeck
+ortools
+shap
+matplotlib
+python-dotenv
+groq
+simpy
+pyyaml
