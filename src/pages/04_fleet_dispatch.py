@@ -217,7 +217,7 @@ st.html(f"""
     <div class="fd-header-right">
         <span class="fd-tag">⛏️ {mine_display}</span>
         {monsoon_tag}
-        <span class="fd-tag">🟢 OPERATIONAL</span>
+        <span class="fd-live"><span class="fd-live-dot"></span> OPERATIONAL</span>
     </div>
 </div>
 """)
