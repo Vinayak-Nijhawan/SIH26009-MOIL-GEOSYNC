@@ -207,7 +207,7 @@ comparison = run_cached_comparison(
 # HEADER
 # ═══════════════════════════════════════════════════════════════════════════════
 
-monsoon_tag = '<div class="fd-tag">🌧️ Monsoon Derate Active</div>' if monsoon_override else ''
+monsoon_tag = '<span class="fd-tag">🌧️ Monsoon Derate Active</span>' if monsoon_override else ''
 st.markdown(f"""
 <div class="fd-header">
     <div class="fd-header-left">
@@ -215,9 +215,9 @@ st.markdown(f"""
         <div class="fd-subtitle">MineFlow OR-Optimizer · SimPy DES · MOIL Manganese Operations</div>
     </div>
     <div class="fd-header-right">
-        <div class="fd-tag">⛏️ {mine_display}</div>
+        <span class="fd-tag">⛏️ {mine_display}</span>
         {monsoon_tag}
-        <div class="fd-tag">🟢 OPERATIONAL</div>
+        <span class="fd-tag">🟢 OPERATIONAL</span>
     </div>
 </div>
 """, unsafe_allow_html=True)
