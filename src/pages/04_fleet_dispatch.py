@@ -208,7 +208,7 @@ comparison = run_cached_comparison(
 # ═══════════════════════════════════════════════════════════════════════════════
 
 monsoon_tag = '<span class="fd-tag">🌧️ Monsoon Derate Active</span>' if monsoon_override else ''
-st.markdown(f"""
+st.html(f"""
 <div class="fd-header">
     <div class="fd-header-left">
         <h1>🚛 Intelligent Fleet Dispatch</h1>
@@ -220,7 +220,7 @@ st.markdown(f"""
         <span class="fd-tag">🟢 OPERATIONAL</span>
     </div>
 </div>
-""", unsafe_allow_html=True)
+""")
 st.caption(f"📊 **Data Source:** REAL production (MOIL Annual Reports) + DERIVED estimates + SIMULATED fleet dispatch (SimPy DES). See column badges for provenance.")
 
 
